@@ -3,12 +3,12 @@
     margin-top: 40px;
     margin-left: 50px;
 }
-.button{
+/* .button{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     row-gap: 10px;
 
-}
+} */
 .button button{
     width: 50px;
     
