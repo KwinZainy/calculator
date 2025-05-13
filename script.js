@@ -1,8 +1,4 @@
 // const division = document.getElementById("division")
-// const multiplication = document.getElementById("multiplication")
-// const addition = document.getElementById("addition")
-// const subtraction = document.getElementById("subtraction")
-
 let display = document.getElementById("input")
 let clear = document.getElementById("clear")
 let total = document.getElementById("equalTo")
@@ -19,7 +15,7 @@ function clearVal(){
 }
 
 function totalVal(){
-    return input.value = eval(input.value + val)
+    return input.value = eval()
 }
 
 
