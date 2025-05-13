@@ -8,8 +8,14 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     row-gap: 10px;
 
+
 }
 .button button{
     width: 50px;
+    margin-bottom: 10px;
     
+}
+#input{
+    margin-bottom: 20px;
+    width: 90%;
 }

@@ -9,28 +9,28 @@
 </head>
 <body>
     <div class="container">
-        <input type="text">
+        <input id="input"  type="text">
         <div class="button">
-            <button>C</button>
-            <button>9</button>
-            <button>8</button>
-            <button>7</button>
-            <button>/</button>
+            <button id="clear">C</button>
+            <button onclick="addNumToDisplay('9')">9</button>
+            <button onclick="addNumToDisplay('8')">8</button>
+            <button onclick="addNumToDisplay('7')">7</button>
+            <button id="division" onclick="addNumToDisplay('/')">/</button>
 
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button>*</button>
+            <button onclick="addNumToDisplay('4')">4</button>
+            <button onclick="addNumToDisplay('5')">5</button>
+            <button onclick="addNumToDisplay('6')">6</button>
+            <button id="multiplication" onclick="addNumToDisplay('*')">*</button>
 
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button>-</button>
+            <button onclick="addNumToDisplay('1')">1</button>
+            <button onclick="addNumToDisplay('2')">2</button>
+            <button onclick="addNumToDisplay('3')">3</button>
+            <button id="subtraction" onclick="addNumToDisplay('-')">-</button>
 
-            <button>0</button>
-            <button>.</button>
-            <button>=</button>
-            <button>+</button>
+            <button onclick="addNumToDisplay('0')">0</button>
+            <button onclick="addNumToDisplay('.')">.</button>
+            <button id="equalTo">=</button>
+            <button id="addition" onclick="addNumToDisplay('+')">+</button>
         </div>
     </div>
 </body>
