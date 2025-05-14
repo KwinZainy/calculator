@@ -1,7 +1,7 @@
-const division = document.getElementById("division")
-let display = document.getElementById("input")
-let clear = document.getElementById("clear")
-let total = document.getElementById("equalTo")
+// const division = document.getElementById("division")
+// let display = document.getElementById("input")
+// let clear = document.getElementById("clear")
+// let total = document.getElementById("equalTo")
 
 
 function addNumToDisplay(val){
