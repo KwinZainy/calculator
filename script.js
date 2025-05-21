@@ -21,7 +21,7 @@ function totalVal(){
 }
 
 
-function reload(){
+function saveVal(){
       input.value = history[history.length - 1]
     // alert("zainab")
 
@@ -29,5 +29,5 @@ function reload(){
 
 total.addEventListener("click", totalVal)
 clear.addEventListener("click", clearVal)
-historyBtn.addEventListener( "click", reload)
+historyBtn.addEventListener( "click", saveVal)
   
